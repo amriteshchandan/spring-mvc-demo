@@ -7,7 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Hello World!!!</h2>
-<a href="showForm">Form LINK</a>
+Hello World Of Spring!
+<br><br>
+Student Name : ${param.studentName}
 </body>
 </html>
