@@ -33,7 +33,7 @@ public class HelloWorldController {
 	
 	// Read form data and add that data in Model
 	@RequestMapping(value="/processFormVersion3")
-	public String processFormVersion3(@RequestParam("studentName") String name, Model model) {		
+	public String processFormVersion3(@RequestParam("studentName") String name, Model model) {
 		name = name.toUpperCase();
 		name = "Hey! " + name;
 		model.addAttribute("message", name);

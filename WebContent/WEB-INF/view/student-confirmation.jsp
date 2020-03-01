@@ -4,12 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Student Confirmation</title>
 </head>
 <body>
-<h2>Hello World!!!</h2>
-<a href="hello/showForm">Hello World Form LINK</a>
-<br><br>
-<a href="student/showForm">Student Form LINK</a>
+The Student Is Confirmed: ${student.firstName} ${student.lastName}
 </body>
 </html>
